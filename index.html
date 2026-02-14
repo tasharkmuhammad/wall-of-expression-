@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>The Wall Of Expression</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="header">
+    <div class="wrap header-inner">
+      <div class="brand">
+        <div class="brand-title">The Wall Of Expression</div>
+        <div class="brand-subtitle">Fleet Block • Interactive Pixel Wall</div>
+      </div>
+
+      <nav class="nav">
+        <a class="active" href="index.html">Home</a>
+        <a href="fleet-block.html">Fleet Block</a>
+        <a href="community.html">Community</a>
+        <a href="artist-work.html">Artist Work</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="hero">
+      <div class="hero-text">
+        <h1>The Wall Of Expression</h1>
+        <p class="muted">
+          A public, interactive wall that invites people to touch, participate, and help build a shared archive of
+          community-made pixel art.
+        </p>
+        <div class="btn-row">
+          <a class="btn" href="fleet-block.html">See the installation</a>
+          <a class="btn btn-outline" href="artist-work.html">View artist archive</a>
+        </div>
+      </div>
+
+      <div class="hero-media">
+        <img src="images/home-mural-rainbow.png" alt="Wall of Expression hero image" />
+      </div>
+    </section>
+
+    <section class="section">
+      <h2>Quick views</h2>
+      <p class="muted">A few snapshots of the wall across time and participation.</p>
+
+      <div class="grid">
+        <figure class="tile">
+          <img class="zoom" src="images/home-curved-dusk.png" alt="Curved wall at dusk" />
+          <figcaption>Curved wall (dusk)</figcaption>
+        </figure>
+        <figure class="tile">
+          <img class="zoom" src="images/home-curved-night.png" alt="Curved wall at night" />
+          <figcaption>Curved wall (night)</figcaption>
+        </figure>
+        <figure class="tile">
+          <img class="zoom" src="images/home-bench-day.png" alt="Bench and wall view" />
+          <figcaption>Seating + daily use</figcaption>
+        </figure>
+        <figure class="tile">
+          <img class="zoom" src="images/home-smiley-family.png" alt="Family engaging with wall" />
+          <figcaption>Family engagement</figcaption>
+        </figure>
+        <figure class="tile">
+          <img class="zoom" src="images/home-smiley-hands.png" alt="Hands-on interaction" />
+          <figcaption>Hands-on interaction</figcaption>
+        </figure>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer-inner">
+      <span>The Wall Of Expression</span>
+      <span class="muted">Student project website</span>
+    </div>
+  </footer>
+
+  <div id="lightbox" class="lightbox" aria-hidden="true">
+    <button id="lbClose" class="lb-close" aria-label="Close">×</button>
+    <img id="lbImg" alt="Expanded image" />
+    <div id="lbCap" class="lb-cap"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
